@@ -12,4 +12,4 @@ message  = str(sys.argv[4])
 
 hipster = hipchat.HipChat(token=token)
 
-hipster.method('rooms/message', method='POST', parameters={'room_id': room_id, 'from': from_name, 'message': message})
+hipster.method('rooms/message', method='POST', parameters={'room_id': room_id, 'from': from_name, 'message': message, 'color':'purple'})
